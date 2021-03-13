@@ -79,6 +79,89 @@
 
 
 
+    <!--SING IN MODAL-->
+    <div class="modal " id="signin-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h5>Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex flex-column text-center">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email1" placeholder="Your username...">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password1"
+                                    placeholder="Your password...">
+                                <label class="form-check-label d-flex justify-content-start " style="margin: 20px;">
+                                    <input class="form-check-input " type="checkbox"> Remember me
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modal-footer d-flex justify-content-center">
+                    <div class="signup-section">Not a member yet? <a href="#signup-modal" class="text-info"> Sign
+                            Up</a>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SING UP MODAL-->
+    <div class="modal " id="signup-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h5>NEW ACCOUNT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <form>
+                            <div class="form-group">
+                                <h6>Username <span class="text-warning">*</span></h6>
+                                <input type="email" class="form-control" id="email" placeholder="Your username...">
+                            </div>
+                            <div class="form-group">
+                                <h6>Email address <span class="text-warning">*</span></h6>
+                                <input type="email" class="form-control" id="email" placeholder="Your email address...">
+                            </div>
+                            <div class="form-group">
+                                <h6>Password <span class="text-warning">*</span></h6>
+                                <input type="password" id="password-1" class="form-control"
+                                    placeholder="Your password...">
+
+                                <input type="password" id="password-2" class="form-control"
+                                    placeholder="Repeat your password...">
+
+                                <label class="form-check-label d-flex justify-content-start " style="margin: 20px;">
+                                    <input class="form-check-input " type="checkbox">
+                                    <p> I agree to the <a href="#"> terms & conditions</a>
+                                    </p>
+                                </label>
+                            </div>
+                            <button class="btn btn-info btn-block btn-round">Create account</button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
 
 
 
