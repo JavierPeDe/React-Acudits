@@ -1,0 +1,43 @@
+.navbar{
+min-height: 100px;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    border: solid 2px white;
+    padding: 10px;
+    border-radius: 30%;
+}
+#introduction{
+    background: url(../img/introduction.jpeg) center;
+    width: auto;
+    height: 600px;
+    background-position: top;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    font-size:1rem;
+    
+}
+
+#introduction h3
+{
+    
+    color:white;
+    font-family: 'Dancing Script', cursive;
+   
+    
+}
+
+#introduction h4 a{
+    color:#FFFFFF;
+
+}
+#presentacion{
+background:rgba(0,0,0,.6);
+font-size: 1em;
+
+}
+#presentacion:hover{
+    background:rgba(0,0,0,.9);
+}
+

@@ -5,6 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Meta tags-->
+    <meta name="description" content="Expositorio y venta de cuadros de Carlos Casadesus">
+    <meta name="keywords" content="Pintura, Arte, Compra, Carlos, Casadesus, Exposicion">
+    <meta name="author" content="Javier Perez">
     <!-- ICONS-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
@@ -13,55 +17,63 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- CSS style -->
-   
-    <title>Hello, world!</title>
+
+    <title>carloscasadesus.com</title>
+
+    <!-- Font Dancing Script : LOGO-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <!-- Font Awesome CSS -->
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'> 
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark  flex-md-nowrap ">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand mb-1" href="#">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            CarlosCasadesus
+        </a>
+
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container" ">
+        <div class="container ">
 
             <div class=" collapse navbar-collapse " id=" navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Exposiciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Pintura</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Arte Digital</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Contacto</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Exposiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Pintura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">ArteDigital</a>
+                    </li>
+                    <li class="nav-item">
+                        <div><a class="btn btn-danger" href="#">Contacto</a></div>
+                    </li>
+                </ul>
 
 
 
+            </div>
         </div>
-        </div>
-        <div class="d-flex flex-nowrap">
+        <div class="container d-flex justify-content-center justify-content-md-end">
+
             <button class="btn-primary btn-info" data-toggle="modal" data-target="#signin-modal">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-person-fill" viewBox="0 0 16 16">
                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                 </svg>
                 Sing in</button>
-            <button class="btn-primary btn-info" data-toggle="modal" data-target="#signup-modal "><i
+            <button class="btn-primary btn-info " data-toggle="modal" data-target="#signup-modal "><i
                     class="bi bi-person-fill"></i>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-award-fill" viewBox="0 0 16 16">
@@ -74,6 +86,34 @@
         </div>
 
     </nav>
+    <!--End Navbar-->
+    <!--Presentacio-->
+    <div id="introduction" class="container-fluid slider d-flex flex-column  item align-items-center">
+        <h3 class=" display-1 mt-5">Carlos Casadesus</h3>
+        <h4><a href="https://www.instagram.com/carloscasadesus/" target="_blank">@carloscasadesus</a></h4>
+        
+        <div class="container mt-4"><blockquote id="presentacion" class="blockquote text-center text-light ">
+            <h5>« Observe, analice, comprenda y capture. »</h5>
+            <p>Carlos Casadesús es un artista español que describe su proceso artístico como el acto de pintar lo que
+                ve, lo
+                que le gusta e incluso lo que no le gusta. A través de este método, estudia un tema o concepto hasta que
+                capta completamente su esencia. La expresión creativa de Casadesús comienza con dibujos a lápiz a mano
+                alzada, seguidos de manchas de óleo sobre tela o madera.</p>
+        </blockquote>
+</div>
+    </div>
+    <!--Slider-->
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -184,7 +224,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
-    
+
 
 
 </body>
