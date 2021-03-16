@@ -1,51 +1,88 @@
-
-.navbar{
-min-height: 100px;
-}
-.navbar-brand{
-    font-family: 'Dancing Script', cursive;
-    font-size: 2em;
-    border: solid 2px white;
-    padding: 5px;
-    margin-bottom: 3px;
-    
-}
-#introduction{
-    background: url(../img/introduction.jpeg) center;
-    width: auto;
-    height: 600px;
-    background-position: top;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
-    font-size:1rem;
-    
+.navbar {
+  min-height: 100px;
+  font-size: 1em;
 }
 
-#introduction h3
-{
-    
-    color:white;
-    font-family: 'Dancing Script', cursive;
-   
-    
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 1em;
+  border: solid 2px white;
+  padding: 5px;
+  margin-bottom: 3px;
 }
 
-#introduction h4 a{
-    color:#FFFFFF;
+#introduction {
+  background: url(../img/introduction.jpeg) center;
+  width: 100%;
+  height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  font-size: 1rem;
+}
 
+#introduction h3 {
+  font-size: 3em;
+  color: white;
+  font-family: "Dancing Script", cursive;
 }
-#presentacion{
-background:rgba(0,0,0,.6);
-font-size: 1em;
 
+#introduction h4 a {
+  color: #FFFFFF;
 }
-#presentacion:hover{
-    background:rgba(0,0,0,.9);
+
+#presentacion {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
 }
-#carrusel{
-    font-family: 'Merriweather', serif;
+
+#presentacion:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
-#carrusel h3{
-    font-family: 'Dancing Script', cursive;
-    font-size: 3em;
+
+#carrusel {
+  font-family: "Merriweather", serif;
+}
+
+#carrusel h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  #introduction,
+.navbar-brand {
+    font-size: 16px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #introduction,
+.navbar-brand {
+    font-size: 30px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #introduction,
+.navbar-brand {
+    font-size: 40px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #introduction,
+.navbar-brand {
+    font-size: 48px;
+  }
 }
