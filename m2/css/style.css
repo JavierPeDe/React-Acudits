@@ -33,7 +33,7 @@
 
 #presentacion {
   background: rgba(0, 0, 0, 0.6);
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #presentacion:hover {
@@ -76,7 +76,7 @@ Bootstrap 4 breakpoints
 @media (min-width: 544px) {
   #introduction,
 .navbar-brand {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -84,6 +84,10 @@ Bootstrap 4 breakpoints
   #introduction,
 .navbar-brand {
     font-size: 30px;
+  }
+
+  #presentacion {
+    font-size: 18px;
   }
 }
 /* Large devices (desktops, 992px and up) */
