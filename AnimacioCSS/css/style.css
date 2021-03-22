@@ -7,7 +7,9 @@ body{
     margin-top: 20px;
     border: 5px solid #000000;
     width: 50vw;
+    
     height: 800px;
+    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,16 +38,8 @@ body{
     }
 }
 @keyframes bounce-Y{
-    0%{
-        transform: translateY(40px);
-
-    }
-    10%{
-     height: 100px;  
-     width: 100px; 
-    }
-       
-   47%{
+ 
+   40%{
        height: 100px;
        width: 95px;
    }
@@ -58,9 +52,7 @@ body{
         height: 100px;
         width: 110px;
     }
-   100%{
-       reatransform: translateY(40px);
-   }
+ 
 }
 /* }
 @keyframes deform{
