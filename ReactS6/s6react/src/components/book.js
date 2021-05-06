@@ -1,6 +1,9 @@
 const Book = (props) => {
   return (
-      <h2>{props.text}</h2>
+      <div>
+      <h2>{props.info.title}</h2>
+      <p>{props.info.author}</p>
+      </div>
   )  
  }
  
