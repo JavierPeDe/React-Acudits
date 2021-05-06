@@ -1,6 +1,6 @@
-const Book = () => {
+const Book = (props) => {
   return (
-      <h2>Viatge a la lluna</h2>
+      <h2>{props.text}</h2>
   )  
  }
  
