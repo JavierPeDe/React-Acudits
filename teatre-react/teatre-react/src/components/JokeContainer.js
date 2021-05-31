@@ -1,6 +1,6 @@
 import axios from "axios";
 import {useState } from "react";
-
+import'../App.css'
 
 
 function JokeContainer() {
@@ -12,9 +12,9 @@ function JokeContainer() {
     })
   };
   return (
-    <div>
+    <div className='JokeContainerCss'>
         <h1>Preparat per riure? 🤣</h1>
-      <p>{apiJoke}</p>
+      <p className='Joke'>{apiJoke}</p>
       <button onClick={onClickChange}>Següent acudit</button>
     </div>
   );
